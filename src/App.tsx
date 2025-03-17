@@ -39,7 +39,7 @@ const App = () => (
             {/* Rotas de Fundos */}
             <Route path="/fundos" element={<FundosIndex />} />
             <Route path="/fundos/novo" element={<NovoFundo />} />
-
+            
             {/* Rotas de Cotistas */}
             <Route path="/cotistas" element={<CotistasIndex />} />
             <Route path="/cotistas/novo" element={<NovoCotista />} />
